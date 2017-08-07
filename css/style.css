@@ -11,15 +11,15 @@ html,body
 
 
 
-/* Navbar Padding When Expanded at Small Res */
+/* NAVBAR PADDING WHEN EXPANDED AT SMALL RES */
 @media (max-width: 768px) {
 	body{
 		font-family: 'Open Sans', sans-serif;
-		padding-top: 55px;
+		padding-top: 95px;
 	}
 }
 
-/* Red Header Style 1 */
+/* LARGE RED HEADER */
 h1 { 
 	font-family: 'Pacifico';
 	font-size: 55px;
@@ -27,6 +27,7 @@ h1 {
     color: #b34029;
 }
 
+/* SMALL RED HEADER */
 h2 { 
 	font-family: 'Pacifico';
 	font-size: 30px;
@@ -34,7 +35,7 @@ h2 {
     color: #b34029;
 }
 
-/* White Header Style 2 */
+/* LARGE WHITE HEADER */
 h3 { 
 	font-family: 'Pacifico';
 	font-size: 55px;
@@ -42,7 +43,7 @@ h3 {
     color: white;
 }
 
-/* Unica One Style */
+/* UNICA ONE STYLE */
 h4 { 
   font-family: 'Unica One';
   font-size: 20px;
@@ -53,7 +54,7 @@ h4 {
 
 
 
-/* Centering Container Content */
+/* CENTERING CONTAINER CONTENT */
 .center-content {
 	text-align: center;
 }
@@ -83,8 +84,7 @@ padding-bottom: 50px;
     background-color: #b34029;
 }
 
-/* Tap Panel */
-
+/* TAB PANEL */
 #exTab1 .tab-content {
   color : white;
   background-color: white;
@@ -93,8 +93,7 @@ padding-bottom: 50px;
   width: 758px;
 }
 
-/* Tabs */
-
+/* TABS */
 #exTab1 .nav-pills > li > a {
   font-family: 'Unica One', sans-serif;
   font-size:  20px;
@@ -127,6 +126,7 @@ padding-bottom: 50px;
   text-align: left;
 }
 
+/* IMAGE SCALING CSS */
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -177,6 +177,7 @@ padding-bottom: 50px;
   margin-bottom: 20px;
 }
 
+/* LANDING PAGE CSS */
 .header{
     display: table;
     position: relative;
@@ -193,4 +194,20 @@ padding-bottom: 50px;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+/* WAFFLE IMAGE SIZE REGULATION */
+@media (max-width: 480px) {
+  #picblock {
+    background-image: url(../img/graphiclogo.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+@media (min-width: 150px) {
+  #picblock {
+    background-image: url(../img/graphiclogo.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
 }
