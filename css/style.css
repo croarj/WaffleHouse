@@ -1,0 +1,196 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px; 
+}
+
+
+
+/* Navbar Padding When Expanded at Small Res */
+@media (max-width: 768px) {
+	body{
+		font-family: 'Open Sans', sans-serif;
+		padding-top: 55px;
+	}
+}
+
+/* Red Header Style 1 */
+h1 { 
+	font-family: 'Pacifico';
+	font-size: 55px;
+    display: block;
+    color: #b34029;
+}
+
+h2 { 
+	font-family: 'Pacifico';
+	font-size: 30px;
+    display: block;
+    color: #b34029;
+}
+
+/* White Header Style 2 */
+h3 { 
+	font-family: 'Pacifico';
+	font-size: 55px;
+    display: block;
+    color: white;
+}
+
+/* Unica One Style */
+h4 { 
+  font-family: 'Unica One';
+  font-size: 20px;
+    display: block;
+    color: black;
+}
+
+
+
+
+/* Centering Container Content */
+.center-content {
+	text-align: center;
+}
+
+.centered {
+	float: none;
+	margin: 0 auto;
+
+}
+
+.landingdiv {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.menudiv {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.betweendivs {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.redbg {
+    background-color: #b34029;
+}
+
+/* Tap Panel */
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: white;
+  color: black;
+  padding : 30px 30px;
+  width: 758px;
+}
+
+/* Tabs */
+
+#exTab1 .nav-pills > li > a {
+  font-family: 'Unica One', sans-serif;
+  font-size:  20px;
+  border-radius: 0;
+  width: 150px;
+  margin-bottom: 1px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: white;
+    background-color:  #232323;
+}
+
+.nav-pills > li > a {
+    background-color: white;
+    color: black;
+}
+
+.nav-pills > li > a:hover {
+    background-color: #232323;
+    color: white;
+}
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-pane {
+  text-align: left;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.foodimagesize {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 940px;
+}
+
+.foodimage-container{
+  height: 200px;
+  position: relative;
+}
+
+.foodimage-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.bgimage {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background: url(../img/whitelogobg.jpg) no-repeat center center scroll;
+
+}
+
+.divpadding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.objectmargin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/whitelogobg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
