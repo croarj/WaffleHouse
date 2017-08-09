@@ -78,6 +78,11 @@ h5 {
   margin-bottom: 10px;
 }
 
+/* RIGHT ALIGN CONTENT */
+.right-content {
+  text-align: right;
+}
+
 /* CENTERING CONTAINER CONTENT */
 .center-content {
 	text-align: center;
@@ -97,6 +102,11 @@ h5 {
 .menudiv {
 padding-top: 100px;
 padding-bottom: 100px;
+}
+
+.menuentry {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .betweendivs {
@@ -223,6 +233,15 @@ flex-direction: column;
   height: auto;
   object-fit: cover;
   background: url(../img/whitelogobg.jpg) no-repeat center center scroll;
+
+}
+
+.redbgimage {
+  position: relative;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  background: url(../img/redbg.jpg) repeat center center scroll;
 
 }
 
