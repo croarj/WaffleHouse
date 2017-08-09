@@ -78,11 +78,6 @@ h5 {
   margin-bottom: 10px;
 }
 
-
-
-
-
-
 /* CENTERING CONTAINER CONTENT */
 .center-content {
 	text-align: center;
@@ -100,8 +95,8 @@ h5 {
 }
 
 .menudiv {
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .betweendivs {
@@ -132,12 +127,16 @@ padding-bottom: 50px;
 /* TABS */
 #exTab1 .nav-pills > li > a {
   font-family: 'Unica One', sans-serif;
-  font-size:  20px;
+  font-size: 20px;
   text-align: center;
   border-radius: 0;
   width: 140px;
   height: 45px;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
+}
+
+.nav-pills > li + li {
+    margin-left: 0px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
@@ -156,12 +155,34 @@ padding-bottom: 50px;
 }
 
 .center-pills {
-    display: flex;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .tab-pane {
   text-align: left;
+}
+
+/* ALTERING MENU TABS AT MIN RES */
+@media (max-width: 1000px) {
+#exTab1 .nav-pills > li > a {
+width: 100%;
+flex-direction: column;
+margin-left: 0;
+margin-right: 0;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+width: 100%;
+flex-direction: column;
+}
+
+.center-pills {
+width: 100%;
+flex-direction: column;
+}
 }
 
 /* IMAGE SCALING CSS */
